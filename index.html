@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel de Moderación y Tickets</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Panel de Moderación y Tickets</h1>
+    </header>
+
+    <div class="content">
+        <section class="moderation">
+            <h2>Panel de Moderación</h2>
+            <ul>
+                <li>Ban</li>
+                <li>Kick</li>
+                <li>Mute</li>
+                <li>Limpiar chat</li>
+            </ul>
+        </section>
+
+        <section class="tickets">
+            <h2>Sistema de Tickets</h2>
+            <button>Abrir Ticket</button>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Panel de Moderación y Tickets. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html> 
+CSS
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+section {
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
