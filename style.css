@@ -1,10 +1,10 @@
-.body {
+body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
 
-.header {
+header {
     background-color: #333;
     color: #fff;
     text-align: center;
@@ -19,22 +19,22 @@
     justify-content: space-around;
 }
 
-.section {
+section {
     background-color: #f4f4f4;
     border-radius: 10px;
     padding: 20px;
 }
 
-.h2 {
+h2 {
     color: #333;
 }
 
-.ul {
+ul {
     list-style-type: none;
     padding: 0;
 }
 
-.ul li {
+ul li {
     margin-bottom: 10px;
     cursor: pointer;
 }
@@ -49,11 +49,11 @@
     transition: background-color 0.3s ease;
 }
 
-.button:hover {
+button:hover {
     background-color: #0056b3;
 }
 
-.footer {
+footer {
     background-color: #333;
     color: #fff;
     text-align: center;
